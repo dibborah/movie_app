@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
 /* 
 
 *{
@@ -39,7 +40,8 @@ body{
     
 }
 #content{
-    margin-left: 20px;
+    /* margin-left: 20px; */
+    margin: 1%;
 }
 
 header{
@@ -50,23 +52,182 @@ header{
 }
 
 .search{
-    margin: 1rem;
-    margin-left: 80rem;
+    margin: 1%;
+    margin-left: 100rem;
     background-color:transparent;
     padding: 8px 16px;
     font-family: inherit;
     font-size: 1rem;
-    border: 1.5px solid black;
-    border-radius: 50px;
+    border-radius: 30px;
+
+    /* border: 1.5px solid black; */
+
+    background-color: #22254b;
+    width: 13%;
 }
 
-.film{
+.search::placeholder{
+    color: #7378c5;
+    font:bolder;
+}
+
+.search:focus{
+    background-color: #22254b;
+    outline: none;
+    color: white;
+}
+
+
+/* .film{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     width: 300px;
     height: 450px;
     row-gap: 30px;
     column-gap: 30px;
+    border-radius: 2px;
+} */
+
+.film{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 92.5%;
+    row-gap: 30px;
+    column-gap: 30px;
+    border-radius: 2px;
+}
+
+.movieTitle{
+    width: 92.5%;
+    height: 78px;
+    color: #fff;
+    align-items: center;
+    background-color: #373B69;
+    border-radius: 2px
+}
+
+.title{
+    margin-left:20px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.rating{
+    height: 30px;
+    background-color: rgb(34, 37, 75);
+    margin-left: 150px;
+    width: 34px;
+    font-weight: bolder;
+    border-radius: 3px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    color: orange;
+}
+
+#ttm{
+    margin-left: 135px;
+}
+#bb{
+    margin-left: 171px;
+}
+#fx{
+    margin-left: 173px;
+}
+
+#mg2{
+    margin-left: 171px;
+}
+
+#tn2{
+    margin-left: 136px;
+}
+
+#kdh{
+    margin-left: 135px;
+}
+
+#emt{
+    margin-left: 137px;
+}
+
+#ijatdod{
+    margin-left: 240px;
+    margin-top: -40px;
 
 }
+
+#ae{
+    margin-left: 88px;    
+}
+
+#trob{
+    margin-left: 225px;    
+}
+
+#sof{
+    margin-left: 239px;
+    margin-top: -63px;
+    color: aqua;
+}
+
+#tmnt{
+    margin-left: 248px;
+}
+
+#tf{
+    margin-left: 141px;
+}
+#st{
+    margin-left: 168px;
+}
+#smatsv{
+    margin-left: 238px; 
+    margin-top: -36px;
+    color: aqua;
+}
+
+#sd{
+    margin-left: 86px;
+}
+
+#sk{
+    margin-left: 173px;
+}
+
+#tn{
+    margin-left: 137px;
+}
+#adp{
+    margin-left: 133px;    
+}
+#jwc4{
+    margin-left: 239px;
+    margin-top: -53px;
+
+}
+
+.overview {
+    background-color: #fff;
+    padding: 2rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    max-height: 100%;
+    transform: translateY(101%);
+    transition: transform 0.3s ease-in;
+}
+
+/* 15 october 25days no react and js till now */
+
+/* 
+#content {
+    margin: 0 20px;
+}
+
+*{
+    box-sizing: border-box;
+} */
+
